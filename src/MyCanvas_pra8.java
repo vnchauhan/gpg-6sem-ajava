@@ -1,15 +1,3 @@
-
-
-
-import java.applet.Applet;
-import java.awt.Canvas;
-import java.awt.Checkbox;
-import java.awt.Color;
-import java.awt.FlowLayout;
-import java.awt.Graphics;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-
 /**
  * Write an applet that contains three check boxes and 30 x 30 pixel canvas. The
  * three checkboxes should be labeled “Red”, ”Green”, ”Blue”. The selection of
@@ -20,7 +8,16 @@ import java.awt.event.ItemListener;
  *
  */
 
-/*<Applet code="MyCanvas.class" height=200 width=200></Applet>*/
+/* <Applet code="MyCanvas.class" height=200 width=200></Applet> */
+
+import java.applet.Applet;
+import java.awt.Canvas;
+import java.awt.Checkbox;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Graphics;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 
 public class MyCanvas_pra8 extends Applet implements ItemListener {
 	Color[] colors = new Color[] { Color.RED, Color.GREEN, Color.BLUE };

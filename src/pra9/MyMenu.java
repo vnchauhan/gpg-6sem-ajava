@@ -1,3 +1,12 @@
+/**
+ * Create an application that displays a frame with a menubar. When a user
+ * selects any menu or menu item, display that selection on a text area in the
+ * center of the frame
+ * 
+ * @author Government Polytechnic, Gandhinagar
+ *
+ */
+
 package pra9;
 
 import java.awt.FlowLayout;
@@ -11,14 +20,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
-/**
- * Create an application that displays a frame with a menubar. When a user
- * selects any menu or menu item, display that selection on a text area in the
- * center of the frame
- * 
- * @author Government Polytechnic, Gandhinagar
- *
- */
 public class MyMenu extends Frame {
 	Label menuSelected = new Label("No Menu selected         ");
 
